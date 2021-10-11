@@ -1,0 +1,40 @@
+.App {
+  text-align : center;
+}
+
+.movie-list-card {
+  width: auto;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #61dafb;
+  color:white;
+}
+
+.seat {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.ready {
+  background-color: green;
+  color: white;
+  font-size: 25px;
+}
+
+.booked {
+  background-color: red;
+  color: white;
+}
+
+.ready:hover {
+  background-color: rgb(113, 241, 113);
+}
